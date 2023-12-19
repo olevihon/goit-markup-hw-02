@@ -25,13 +25,13 @@ button {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 18px;
-    line-height: calc(21 / 18);
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .logo-text-highlighted {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 /* header */
@@ -46,12 +46,16 @@ button {
     color: #2e2f42;
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: #404bbf;
 }
 
 /* header address */
+
+.header-address {
+    font-style: normal;
+}
 
 .header-address-link {
     font-size: 16px;
@@ -67,10 +71,14 @@ button {
 
 /* hero */
 
+.hero {
+    background-color: #2e2f42;
+}
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: calc(60 / 56);
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
 
@@ -97,10 +105,16 @@ button {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(40 / 36);
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    text-transform: capitalize;
+}
+
+/* team list item background */
+.team-list-item {
+    background-color: #fff;
 }
 
 /* features, team, portfolio list title */
@@ -138,12 +152,22 @@ button {
     text-align: center;
 }
 
+/* team background */
+
+.team {
+    background-color: #f4f4fd;
+}
+
 /* footer */
+
+.footer {
+    background-color: #2e2f42;
+}
 
 .footer-text {
     font-size: 16px;
     line-height: calc(24 / 16);
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
 
     color: #f4f4fd;
 }
