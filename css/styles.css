@@ -30,8 +30,12 @@ button {
     color: #4d5ae5;
 }
 
-.logo-text-highlighted {
+.logo-text-darken {
     color: #2e2f42;
+}
+
+.logo-text-lighten {
+    color: #f4f4fd;
 }
 
 /* header */
